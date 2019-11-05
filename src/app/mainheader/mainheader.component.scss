@@ -1,0 +1,57 @@
+.navbar-custom {
+  background-color: #F6F9F6;
+
+  .navbar-nav {
+    .navbar-nav>.active>a {
+      color: red;
+    }
+
+    .nav-link {
+      color: darkcyan;
+
+      .active {
+        color: red;
+      }
+
+      &:hover {
+        color: black;
+      }
+    }
+
+    .fa-search {
+      color: darkcyan;
+
+      &:hover {
+        color: black;
+      }
+    }
+
+
+  }
+
+
+}
+
+
+.headerwithlogos {
+  height: 1.5rem;
+
+  .d-flex {
+    position: pull-right;
+    width: 100%;
+  }
+
+  .fa {
+    color: white;
+  }
+
+  .fa:hover {
+    color: darkgrey;
+  }
+}
+
+nav {
+  position: relative;
+}
+
+//change color
